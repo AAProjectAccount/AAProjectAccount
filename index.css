@@ -1,0 +1,4 @@
+/* Makes sure Padding and Margins aren't part of the actual height or width */
+* {
+	box-sizing: border-box;
+}
