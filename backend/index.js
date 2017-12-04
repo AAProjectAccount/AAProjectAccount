@@ -1,2 +1,2 @@
 let myHeight = document.getElementById('navigationBar').offsetHeight;
-document.getElementById('main').style.marginTop = myHeight + "px";
+document.getElementById('main').style.marginTop = myHeight + 10 "px";
