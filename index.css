@@ -39,6 +39,7 @@ body {
 	background-color:#FF512C;
 }
 .header {
+	/* background-image: url("./background.png"); */
 	background-color:#2EB9E0;
 	text-transform: uppercase;
 	text-align: center;
