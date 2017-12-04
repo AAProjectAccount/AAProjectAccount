@@ -6,10 +6,11 @@ body {
 }
 .navBar {
     overflow: hidden;
-    background-color: #325DC1;
+    background-color:#325DC1;
     font-family: Arial;
 	position: fixed;
     top: 0;
+	width: 100%;
 }
 .navBar a {
     float: left;
@@ -21,7 +22,7 @@ body {
 	transition-duration: 0.4s;
 }
 .navBar a:hover{
-    background-color: #0ADE59;
+    background-color:#0ADE59;
 	color: black;
 }
 .navImg {
