@@ -4,6 +4,7 @@
 body {
 	margin: 0px; /* Removes annoying default margins for body */
 	font-family: Helvetica; /* sets whole body to Helvetica */
+	background-color:#4c5762;
 }
 .navBar {
     overflow: hidden;
@@ -41,9 +42,9 @@ body {
 	background-color:#FF512C;
 }
 .header {
-	background-color:#2EB9E0;
+	background-color:#5f8aef;
 	text-transform: uppercase;
 	text-align: center;
-	color:#FFB847;
+	color:#0ade59;
 	padding: 10px 0px 10px 0px;
 }
