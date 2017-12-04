@@ -3,6 +3,7 @@
 }
 body {
 	margin: 0px; /* Removes annoying default margins for body */
+	font-family: Helvetica;
 }
 .navBar {
     overflow: hidden;
@@ -30,4 +31,10 @@ body {
 	height: 20px;
 	/* float: left; */ /* Centers the pictures (unessasary) */
 	margin: 0px 5px 0px 0px; 
+}
+.active {
+	background-color:#FF512C;
+}
+.navBar a:active{
+	background-color:#FF512C;
 }
