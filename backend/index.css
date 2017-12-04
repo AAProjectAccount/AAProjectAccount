@@ -35,6 +35,9 @@ body {
 .active {
 	background-color:#FF512C;
 }
+.active {
+	background-color:#FF512C;
+}	
 .navBar a:active{
 	background-color:#FF512C;
 }
