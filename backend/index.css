@@ -3,7 +3,7 @@
 }
 body {
 	margin: 0px; /* Removes annoying default margins for body */
-	font-family: Helvetica;
+	font-family: Helvetica; /* sets whole body to Helvetica */
 }
 .navBar {
     overflow: hidden;
@@ -29,21 +29,19 @@ body {
 .navImg {
 	width: 20px;
 	height: 20px;
-	/* float: left; */ /* Centers the pictures (unessasary) */
-	margin: 0px 5px 0px 0px; 
+	margin: 0px 5px 0px 0px;
 }
 .active {
 	background-color:#FF512C;
 }
 .active {
 	background-color:#FF512C;
-}	
+}
 .navBar a:active{
 	background-color:#FF512C;
 }
 .header {
-	/* background-image: url("./background.png"); */
-	background-color:#2EB9E0;
+	/* background-color:#2EB9E0; */
 	text-transform: uppercase;
 	text-align: center;
 	color:#FFB847;
