@@ -10,7 +10,7 @@ body {
     overflow: hidden; 
     background-color: #325DC1;
     font-family: Helvetica;
-    border-radius: 50px 20px;
+    border-radius: 80px 80px;
     /*position: fixed;*/
 }
 .navBar a {
