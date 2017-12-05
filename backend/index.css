@@ -3,17 +3,13 @@
 }
 body {
     margin: 0px;
-    /* Removes annoying default margins for body */
-    
     font-family: Helvetica;
-    /* sets whole body to Helvetica */
-    
-    background-color: #4c5762;
+    background-color: #8E8EBE;
 }
 .navBar {
-    overflow: hidden;
+    overflow: hidden; 
     background-color: #325DC1;
-    font-family: Arial;
+    font-family: Helvetica;
     /*position: fixed;*/
 }
 .navBar a {
@@ -38,7 +34,7 @@ body {
     padding: 14px 16px;
     background-color: inherit;
 }
-.navBar a:hover,
+.navBar a:hover, 
 .dropdown:hover .dropbtn {
     background-color: #0ADE59;
     color: black;
@@ -46,7 +42,7 @@ body {
 .dropDC {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #325DC1;
     min-width: 160px;
     z-index: 1;
 }
@@ -59,7 +55,7 @@ body {
     text-align: left;
 }
 .dropDC a:hover {
-    background-color: #ddd;
+    background-color: #0ADE59;
 }
 .show {
     display: block;
@@ -76,9 +72,10 @@ body {
     background-color: #FF512C;
 }
 .header {
-    background-color:#5f8aef;
+    background-color: #5f8aef;
     text-transform: capitalize;
     text-align: center;
     color: #0ade59;
     padding: 10px 0px 10px 0px;
+	margin: 5px 0px 0px;
 }
