@@ -10,6 +10,7 @@ body {
     overflow: hidden; 
     background-color: #325DC1;
     font-family: Helvetica;
+    border-radius: 50px 20px;
     /*position: fixed;*/
 }
 .navBar a {
@@ -19,7 +20,6 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    border-radius: 50px 20px;
     transition-duration: 0.4s;
 }
 .dropdown {
