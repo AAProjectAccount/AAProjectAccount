@@ -15,7 +15,10 @@ body {
     border-radius: 80px 80px;
     border-width: 2px;
     margins: 2px 5px 0px 5px;
+    /*
+    Note: below line ruins dropdown menu
     position: fixed;
+    */
 }
 
 .navBar a {
