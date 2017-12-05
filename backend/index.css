@@ -11,12 +11,18 @@ body {
     background-color: #325DC1;
     font-family: Helvetica;
     border-radius: 80px 80px;
+    border-width: 2px;
+    margins: 2px 5px 0px 5px;
     /*position: fixed;*/
 }
 .navBar a {
     float: left;
     font-size: 16px;
     color: white;
+    border-style: solid;
+    border-radius: 80px 80px;
+    border-color: black;
+    
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
