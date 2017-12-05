@@ -1,21 +1,24 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     margin: 0px;
     font-family: Helvetica;
     background-color: #8E8EBE;
 }
+
 .navBar {
-    overflow: hidden; 
+    overflow: hidden;
     background-color: #325DC1;
     font-family: Helvetica;
     border-radius: 80px 80px;
     border-width: 2px;
     margins: 2px 5px 0px 5px;
-    /*position: fixed;*/
+    position: fixed;
 }
-.navBar a{
+
+.navBar a {
     float: left;
     font-size: 16px;
     color: white;
@@ -27,10 +30,12 @@ body {
     text-decoration: none;
     transition-duration: 0.4s;
 }
+
 .dropdown {
     float: left;
     overflow: hidden;
 }
+
 .dropdown .dropbtn {
     cursor: pointer;
     font-size: 16px;
@@ -43,11 +48,13 @@ body {
     border-color: black;
     background-color: inherit;
 }
-.navBar a:hover, 
+
+.navBar a:hover,
 .dropdown:hover .dropbtn {
     background-color: #0ADE59;
     color: black;
 }
+
 .dropDC {
     display: none;
     position: absolute;
@@ -56,6 +63,7 @@ body {
     margin: 4px 0px 0px 0px;
     z-index: 1;
 }
+
 .dropDC a {
     float: none;
     color: black;
@@ -63,25 +71,30 @@ body {
     text-decoration: none;
     display: block;
     text-align: left;
-    
 }
+
 .dropDC a:hover {
     background-color: #0ADE59;
 }
+
 .show {
     display: block;
 }
+
 .navImg {
     width: 20px;
     height: 20px;
     margin: 0px 5px 0px 0px;
 }
+
 .active {
     background-color: #FF512C;
 }
+
 .navBar a:active {
     background-color: #FF512C;
 }
+
 .header {
     background-color: #5f8aef;
     text-transform: capitalize;
