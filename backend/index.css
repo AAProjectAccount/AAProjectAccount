@@ -15,14 +15,13 @@ body {
     margins: 2px 5px 0px 5px;
     /*position: fixed;*/
 }
-.navBar a {
+.navBar a, .dropbtn {
     float: left;
     font-size: 16px;
     color: white;
     border-style: solid;
     border-radius: 80px 80px;
     border-color: black;
-    
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
