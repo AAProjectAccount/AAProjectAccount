@@ -12,9 +12,6 @@ body {
     overflow: hidden;
     background-color: #325DC1;
     font-family: Helvetica;
-    border-radius: 80px 80px;
-    border-width: 2px;
-    margins: 2px 5px 0px 5px;
     /*
     Note: below line ruins dropdown menu
     position: fixed;
@@ -25,13 +22,10 @@ body {
     float: left;
     font-size: 16px;
     color: white;
-    border-style: solid;
-    border-radius: 80px 80px;
-    border-color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    transition-duration: 0.4s;
+    transition-duration: 0.5s;
 }
 
 .dropdown {
@@ -46,9 +40,6 @@ body {
     outline: none;
     color: white;
     padding: 14px 16px;
-    border-style: solid;
-    border-radius: 80px 80px;
-    border-color: black;
     background-color: inherit;
 }
 
@@ -63,7 +54,6 @@ body {
     position: absolute;
     background-color: #325DC1;
     min-width: 160px;
-    margin: 4px 0px 0px 0px;
     z-index: 1;
 }
 
